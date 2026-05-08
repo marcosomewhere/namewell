@@ -1,0 +1,99 @@
+/* Actions */
+"action.openFolder" = "Ordner öffnen";
+"action.rename" = "Umbenennen";
+"action.undo" = "Rückgängig";
+"action.redo" = "Wiederholen";
+"action.about" = "Über";
+
+/* Help tooltips */
+"help.openFolder" = "Ordner auswählen und Dateien laden (⌘O)";
+"help.rename" = "Befehl auf alle Dateien anwenden (⌘↩)";
+"help.undo" = "Letzte Umbenennung rückgängig machen (⌘Z)";
+"help.redo" = "Letzte rückgängig gemachte Umbenennung wiederholen (⇧⌘Z)";
+"help.about" = "Über Namewell";
+"help.settings" = "Einstellungen";
+
+/* NSOpenPanel */
+"panel.chooseFolder" = "Öffnen";
+"panel.message" = "Wähle einen Ordner, dessen Dateien du umbenennen möchtest";
+
+/* Empty state */
+"empty.title" = "Kein Ordner ausgewählt";
+"empty.subtitle" = "Öffne einen Ordner oder ziehe ihn hierher, um Dateien umzubenennen.";
+"empty.shortcut" = "oder ⌘O drücken";
+
+/* Command input */
+"command.placeholder" = "z. B. remove IMG_ and add index";
+"command.hints" = "Verfügbare Befehle";
+
+/* Status bar */
+"status.files" = "%d Dateien";
+"status.willChange" = "%d werden umbenannt";
+"status.unchanged" = "%d unverändert";
+"status.errors" = "%d Fehler";
+"status.lastOp" = "Zuletzt: %@";
+
+/* Validation errors */
+"error.emptyName" = "Das Ergebnis wäre ein leerer Dateiname";
+"error.duplicateTarget" = "Doppelter Dateiname: %@";
+"error.targetExists" = "Datei existiert bereits: %@";
+"error.invalidChars" = "Ungültige Zeichen: %@";
+"error.permissionDenied" = "Keine Schreibrechte in diesem Ordner";
+"error.nameUnchanged" = "Name würde sich nicht ändern";
+
+/* File loading errors */
+"load.notADirectory" = "Der gewählte Pfad ist kein Ordner.";
+"load.unreadable" = "Ordnerinhalt konnte nicht gelesen werden: %@";
+
+/* Rename errors */
+"rename.partialFailure" = "„%@“ konnte nicht umbenannt werden: %@. Alle Änderungen wurden zurückgesetzt.";
+"rename.rollbackFailed" = "Umbenennung fehlgeschlagen und Rollback unvollständig: %@";
+
+/* Undo */
+"undo.nothingToUndo" = "Nichts rückgängig zu machen";
+"undo.nothingToRedo" = "Nichts zu wiederholen";
+
+/* Parser */
+"parser.unknownCommand" = "Unbekannter Befehl: „%@“";
+"parser.incompleteCommand" = "Befehl noch unvollständig";
+
+/* Alert */
+"alert.title" = "Namewell";
+"alert.ok" = "OK";
+
+/* About */
+"about.madeWith" = "Made with";
+"about.author" = "by Marco Seefeldt";
+"about.developmentStatus" = "Entwicklungsstand";
+"about.description" = "Namewell ist ein leichtes lokales Werkzeug zum schnellen und sicheren Umbenennen vieler Dateien.";
+"about.howToUse" = "Anleitung";
+"about.securityTitle" = "Sicherheit";
+"about.localOnly" = "Deine Dateien bleiben auf diesem Mac.";
+"about.privacy" = "Namewell lädt keine Dateinamen hoch, sendet keine Analysen und kontaktiert keine externen Dienste für deine Umbenennungen.";
+
+/* How to use */
+"howto.title" = "Anleitung";
+"howto.step.openFolder" = "1. Öffne einen Ordner oder ziehe ihn in das Fenster.";
+"howto.step.chooseCommand" = "2. Wähle einen Befehl über die Chips oder tippe ihn in das Eingabefeld.";
+"howto.step.preview" = "3. Prüfe die Vorschau. Erst „Umbenennen“ schreibt die Änderungen auf die Dateien.";
+"howto.examples" = "Beispiele";
+"howto.example.remove" = "entfernt Text aus dem Namen";
+"howto.example.replace" = "ersetzt Leerzeichen durch Unterstriche";
+"howto.example.renameAll" = "vergibt neue Namen mit laufender Nummer";
+"howto.example.datePrefix" = "setzt das Datum vorne";
+"howto.example.dateSuffix" = "setzt das Datum hinten";
+"howto.example.customPrefix" = "setzt eigenen Text vorne";
+"howto.example.customSuffix" = "setzt eigenen Text hinten";
+"howto.example.lowercase" = "macht den Namen klein";
+"howto.example.clean" = "bereinigt problematische Zeichen";
+"howto.note" = "Datum, Index, Prefix und Suffix werden nicht mehrfach gestapelt, wenn sie bereits vorhanden sind.";
+
+/* Settings */
+"settings.title" = "Einstellungen";
+"settings.general" = "Allgemein";
+"settings.storage" = "Dateiverarbeitung";
+"settings.local" = "Lokal auf diesem Mac";
+"settings.language" = "Sprache";
+"settings.appLanguage" = "App-Sprache";
+"settings.languageSystem" = "Systemsprache";
+"settings.restartHint" = "Die Sprachänderung wird sofort auf die Oberfläche angewendet.";

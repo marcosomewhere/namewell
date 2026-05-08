@@ -1,0 +1,99 @@
+/* Actions */
+"action.openFolder" = "Otwórz folder";
+"action.rename" = "Zmień nazwy";
+"action.undo" = "Cofnij";
+"action.redo" = "Ponów";
+"action.about" = "O programie";
+
+/* Help tooltips */
+"help.openFolder" = "Wybierz folder i załaduj pliki (⌘O)";
+"help.rename" = "Zastosuj polecenie do wszystkich plików (⌘↩)";
+"help.undo" = "Cofnij ostatnią operację zmiany nazwy (⌘Z)";
+"help.redo" = "Ponów ostatnio cofniętą operację zmiany nazwy (⇧⌘Z)";
+"help.about" = "O Namewell";
+"help.settings" = "Ustawienia";
+
+/* NSOpenPanel */
+"panel.chooseFolder" = "Otwórz";
+"panel.message" = "Wybierz folder, którego pliki chcesz zbiorczo przemianować";
+
+/* Empty state */
+"empty.title" = "Nie wybrano folderu";
+"empty.subtitle" = "Otwórz folder lub przeciągnij go tutaj, aby zmieniać nazwy plików.";
+"empty.shortcut" = "lub naciśnij ⌘O";
+
+/* Command input */
+"command.placeholder" = "np. remove IMG_ and add index";
+"command.hints" = "Dostępne polecenia";
+
+/* Status bar */
+"status.files" = "%d pliki(-ów)";
+"status.willChange" = "%d zostanie przemianowane";
+"status.unchanged" = "%d bez zmian";
+"status.errors" = "%d błąd(-ów)";
+"status.lastOp" = "Ostatnie: %@";
+
+/* Validation errors */
+"error.emptyName" = "Wynik byłby pustą nazwą pliku";
+"error.duplicateTarget" = "Zduplikowana nazwa pliku: %@";
+"error.targetExists" = "Plik już istnieje: %@";
+"error.invalidChars" = "Nieprawidłowe znaki: %@";
+"error.permissionDenied" = "Brak uprawnień do zapisu w tym folderze";
+"error.nameUnchanged" = "Nazwa nie ulegnie zmianie";
+
+/* File loading errors */
+"load.notADirectory" = "Wybrany ścieżka nie jest folderem.";
+"load.unreadable" = "Nie można odczytać zawartości folderu: %@";
+
+/* Rename errors */
+"rename.partialFailure" = "Nie można zmienić nazwy „%@”: %@. Wszystkie zmiany zostały cofnięte.";
+"rename.rollbackFailed" = "Zmiana nazwy nie powiodła się, a przywracanie jest niekompletne: %@";
+
+/* Undo */
+"undo.nothingToUndo" = "Nie ma czego cofać";
+"undo.nothingToRedo" = "Nie ma czego ponawiać";
+
+/* Parser */
+"parser.unknownCommand" = "Nieznane polecenie: „%@”";
+"parser.incompleteCommand" = "Polecenie jest niekompletne";
+
+/* Alert */
+"alert.title" = "Namewell";
+"alert.ok" = "OK";
+
+/* About */
+"about.madeWith" = "Made with";
+"about.author" = "by Marco Seefeldt";
+"about.developmentStatus" = "Stan rozwoju";
+"about.description" = "Namewell to lekkie lokalne narzędzie do szybkiej i bezpiecznej zmiany nazw wielu plików.";
+"about.howToUse" = "Jak używać";
+"about.securityTitle" = "Bezpieczeństwo";
+"about.localOnly" = "Twoje pliki pozostają na tym Macu.";
+"about.privacy" = "Namewell nie przesyła nazw plików, nie wysyła analiz i nie kontaktuje się z zewnętrznymi usługami podczas zmiany nazw.";
+
+/* How to use */
+"howto.title" = "Jak używać";
+"howto.step.openFolder" = "1. Otwórz folder albo przeciągnij go do okna.";
+"howto.step.chooseCommand" = "2. Wybierz polecenie z przycisków albo wpisz je w polu.";
+"howto.step.preview" = "3. Sprawdź podgląd. Dopiero „Zmień nazwy” zapisuje zmiany w plikach.";
+"howto.examples" = "Przykłady";
+"howto.example.remove" = "usuwa tekst z nazwy";
+"howto.example.replace" = "zamienia spacje na podkreślenia";
+"howto.example.renameAll" = "nadaje nowe nazwy z kolejnymi numerami";
+"howto.example.datePrefix" = "dodaje datę na początku";
+"howto.example.dateSuffix" = "dodaje datę na końcu";
+"howto.example.customPrefix" = "dodaje własny tekst na początku";
+"howto.example.customSuffix" = "dodaje własny tekst na końcu";
+"howto.example.lowercase" = "zmienia nazwę na małe litery";
+"howto.example.clean" = "czyści problematyczne znaki";
+"howto.note" = "Data, indeks, prefiks i sufiks nie są dodawane ponownie, jeśli już istnieją.";
+
+/* Settings */
+"settings.title" = "Ustawienia";
+"settings.general" = "Ogólne";
+"settings.storage" = "Obsługa plików";
+"settings.local" = "Lokalnie na tym Macu";
+"settings.language" = "Język";
+"settings.appLanguage" = "Język aplikacji";
+"settings.languageSystem" = "Język systemu";
+"settings.restartHint" = "Zmiana języka jest natychmiast stosowana w interfejsie.";

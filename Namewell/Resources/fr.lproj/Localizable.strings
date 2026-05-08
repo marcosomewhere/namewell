@@ -1,0 +1,99 @@
+/* Actions */
+"action.openFolder" = "Ouvrir un dossier";
+"action.rename" = "Renommer";
+"action.undo" = "Annuler";
+"action.redo" = "Rétablir";
+"action.about" = "À propos";
+
+/* Help tooltips */
+"help.openFolder" = "Choisir un dossier pour charger les fichiers (⌘O)";
+"help.rename" = "Appliquer la commande à tous les fichiers (⌘↩)";
+"help.undo" = "Annuler le dernier renommage (⌘Z)";
+"help.redo" = "Rétablir le dernier renommage annulé (⇧⌘Z)";
+"help.about" = "À propos de Namewell";
+"help.settings" = "Réglages";
+
+/* NSOpenPanel */
+"panel.chooseFolder" = "Ouvrir";
+"panel.message" = "Sélectionnez un dossier pour renommer ses fichiers en lot";
+
+/* Empty state */
+"empty.title" = "Aucun dossier sélectionné";
+"empty.subtitle" = "Ouvrez un dossier ou faites-le glisser ici pour renommer des fichiers.";
+"empty.shortcut" = "ou appuyez sur ⌘O";
+
+/* Command input */
+"command.placeholder" = "ex. remove IMG_ and add index";
+"command.hints" = "Commandes disponibles";
+
+/* Status bar */
+"status.files" = "%d fichiers";
+"status.willChange" = "%d à renommer";
+"status.unchanged" = "%d inchangés";
+"status.errors" = "%d erreur(s)";
+"status.lastOp" = "Dernier : %@";
+
+/* Validation errors */
+"error.emptyName" = "Le résultat serait un nom de fichier vide";
+"error.duplicateTarget" = "Nom de fichier en double : %@";
+"error.targetExists" = "Le fichier existe déjà : %@";
+"error.invalidChars" = "Caractères invalides : %@";
+"error.permissionDenied" = "Pas de permission d'écriture dans ce dossier";
+"error.nameUnchanged" = "Le nom ne changerait pas";
+
+/* File loading errors */
+"load.notADirectory" = "Le chemin sélectionné n'est pas un dossier.";
+"load.unreadable" = "Impossible de lire le contenu du dossier : %@";
+
+/* Rename errors */
+"rename.partialFailure" = "Impossible de renommer « %@ » : %@. Toutes les modifications ont été annulées.";
+"rename.rollbackFailed" = "Le renommage a échoué et la restauration est incomplète : %@";
+
+/* Undo */
+"undo.nothingToUndo" = "Rien à annuler";
+"undo.nothingToRedo" = "Rien à rétablir";
+
+/* Parser */
+"parser.unknownCommand" = "Commande inconnue : « %@ »";
+"parser.incompleteCommand" = "Commande incomplète";
+
+/* Alert */
+"alert.title" = "Namewell";
+"alert.ok" = "OK";
+
+/* About */
+"about.madeWith" = "Made with";
+"about.author" = "by Marco Seefeldt";
+"about.developmentStatus" = "État du développement";
+"about.description" = "Namewell est un outil local léger pour renommer rapidement et sûrement de nombreux fichiers.";
+"about.howToUse" = "Mode d’emploi";
+"about.securityTitle" = "Sécurité";
+"about.localOnly" = "Vos fichiers restent sur ce Mac.";
+"about.privacy" = "Namewell ne téléverse pas les noms de fichiers, n'envoie pas d'analyses et ne contacte aucun service externe pour vos renommages.";
+
+/* How to use */
+"howto.title" = "Mode d’emploi";
+"howto.step.openFolder" = "1. Ouvrez un dossier ou faites-le glisser dans la fenêtre.";
+"howto.step.chooseCommand" = "2. Choisissez une commande avec les boutons ou saisissez-la dans le champ.";
+"howto.step.preview" = "3. Vérifiez l’aperçu. Seul « Renommer » écrit les changements sur les fichiers.";
+"howto.examples" = "Exemples";
+"howto.example.remove" = "supprime du texte dans le nom";
+"howto.example.replace" = "remplace les espaces par des tirets bas";
+"howto.example.renameAll" = "donne de nouveaux noms avec numéros";
+"howto.example.datePrefix" = "place la date au début";
+"howto.example.dateSuffix" = "place la date à la fin";
+"howto.example.customPrefix" = "place un texte personnalisé au début";
+"howto.example.customSuffix" = "place un texte personnalisé à la fin";
+"howto.example.lowercase" = "met le nom en minuscules";
+"howto.example.clean" = "nettoie les caractères problématiques";
+"howto.note" = "La date, l’index, le préfixe et le suffixe ne sont pas ajoutés une deuxième fois s’ils sont déjà présents.";
+
+/* Settings */
+"settings.title" = "Réglages";
+"settings.general" = "Général";
+"settings.storage" = "Traitement des fichiers";
+"settings.local" = "Local sur ce Mac";
+"settings.language" = "Langue";
+"settings.appLanguage" = "Langue de l’app";
+"settings.languageSystem" = "Langue du système";
+"settings.restartHint" = "Le changement de langue est appliqué immédiatement à l’interface.";

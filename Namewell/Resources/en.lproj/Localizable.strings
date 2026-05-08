@@ -1,0 +1,99 @@
+/* Actions */
+"action.openFolder" = "Open Folder";
+"action.rename" = "Rename";
+"action.undo" = "Undo";
+"action.redo" = "Redo";
+"action.about" = "About";
+
+/* Help tooltips */
+"help.openFolder" = "Choose a folder to load files from (⌘O)";
+"help.rename" = "Apply the command to all files (⌘↩)";
+"help.undo" = "Undo the last rename operation (⌘Z)";
+"help.redo" = "Redo the last undone rename operation (⇧⌘Z)";
+"help.about" = "About Namewell";
+"help.settings" = "Settings";
+
+/* NSOpenPanel */
+"panel.chooseFolder" = "Open";
+"panel.message" = "Select a folder to batch rename its files";
+
+/* Empty state */
+"empty.title" = "No folder selected";
+"empty.subtitle" = "Open a folder or drag it here to start renaming files.";
+"empty.shortcut" = "or press ⌘O";
+
+/* Command input */
+"command.placeholder" = "e.g. remove IMG_ and add index";
+"command.hints" = "Available commands";
+
+/* Status bar */
+"status.files" = "%d files";
+"status.willChange" = "%d will rename";
+"status.unchanged" = "%d unchanged";
+"status.errors" = "%d error(s)";
+"status.lastOp" = "Last: %@";
+
+/* Validation errors */
+"error.emptyName" = "Result would be an empty filename";
+"error.duplicateTarget" = "Duplicate filename: %@";
+"error.targetExists" = "File already exists: %@";
+"error.invalidChars" = "Invalid characters: %@";
+"error.permissionDenied" = "No write permission in this folder";
+"error.nameUnchanged" = "Name would not change";
+
+/* File loading errors */
+"load.notADirectory" = "The selected path is not a folder.";
+"load.unreadable" = "Could not read folder contents: %@";
+
+/* Rename errors */
+"rename.partialFailure" = "Could not rename \"%@\": %@. All changes have been rolled back.";
+"rename.rollbackFailed" = "Rename failed and rollback was incomplete: %@";
+
+/* Undo */
+"undo.nothingToUndo" = "Nothing to undo";
+"undo.nothingToRedo" = "Nothing to redo";
+
+/* Parser */
+"parser.unknownCommand" = "Unknown command: \"%@\"";
+"parser.incompleteCommand" = "Command is incomplete";
+
+/* Alert */
+"alert.title" = "Namewell";
+"alert.ok" = "OK";
+
+/* About */
+"about.madeWith" = "Made with";
+"about.author" = "by Marco Seefeldt";
+"about.developmentStatus" = "Development status";
+"about.description" = "Namewell is a lightweight local tool for quickly and safely renaming many files.";
+"about.howToUse" = "How to use";
+"about.securityTitle" = "Security";
+"about.localOnly" = "Your files stay on this Mac.";
+"about.privacy" = "Namewell does not upload filenames, send analytics, or contact external services for your renames.";
+
+/* How to use */
+"howto.title" = "How to use";
+"howto.step.openFolder" = "1. Open a folder or drag it into the window.";
+"howto.step.chooseCommand" = "2. Choose a command from the chips or type it into the input field.";
+"howto.step.preview" = "3. Check the preview. Only “Rename” writes changes to the files.";
+"howto.examples" = "Examples";
+"howto.example.remove" = "removes text from the name";
+"howto.example.replace" = "replaces spaces with underscores";
+"howto.example.renameAll" = "gives files new names with running numbers";
+"howto.example.datePrefix" = "puts the date at the front";
+"howto.example.dateSuffix" = "puts the date at the end";
+"howto.example.customPrefix" = "puts custom text at the front";
+"howto.example.customSuffix" = "puts custom text at the end";
+"howto.example.lowercase" = "lowercases the name";
+"howto.example.clean" = "cleans problematic characters";
+"howto.note" = "Date, index, prefix, and suffix are not stacked again when they are already present.";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.general" = "General";
+"settings.storage" = "File handling";
+"settings.local" = "Local on this Mac";
+"settings.language" = "Language";
+"settings.appLanguage" = "App language";
+"settings.languageSystem" = "System language";
+"settings.restartHint" = "The language change is applied to the interface immediately.";

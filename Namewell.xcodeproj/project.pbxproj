@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B4E78C8E9384678B03FF13B /* PreviewListView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 491DCDA3ED9045DFB88A3821;
+		};
+		1759FBF6128849EA86443325 /* Localizable.strings in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = 5761CBD1C77948378E978A75;
+		};
+		23F9D9A281454666B2443D1E /* Localizable.strings in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = 0696BC86926044C79C792991;
+		};
+		2AEE9B7B34094DBD8356B985 /* FileRenameService.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = D3E98E5A46F2431AAAB68F32;
+		};
+		2BE4796E9A40470B83C0B9CA /* FileDropHandler.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = F8AF8C0C5F1E4B3CB96190EE;
+		};
+		2D0730A1779D43B38574985C /* NamewellApp.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 9B3F7315EA2C403C8E66EA75;
+		};
+		2F01BF59050D49B1ADEFF33D /* CommandSuggestion.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 5170B64D9C794A8485D731EB;
+		};
+		2FD6BA8E2B2A45A4A8BA07B0 /* RenameOperation.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 0C2A8E58A4CC480C9A0D9320;
+		};
+		34E0B332BE73401EA1E177ED /* RenameValidator.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 045E0089FF124BBD8679A62D;
+		};
+		395E22C45C1B4B5BA1624909 /* FolderSelectionService.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 3A4EB9E868BF4E6E95607053;
+		};
+		3ECA48476A82468D86BE66B3 /* CommandParser.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 513455660E364361A3A2BEAA;
+		};
+		42F18B5A3F6540C68D80067C /* Assets.xcassets in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = 8E42C66410E141CAB85D7FE7;
+		};
+		4BCDFA2B4ED4440FA4AD876A /* L10n.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = C60AE84DBA484A3DABF42BAD;
+		};
+		4C4051F3AB374103AD0F1A55 /* RenameRule.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 2F0C29EF3DC340AEAA7255A9;
+		};
+		4D3C0C13940C4A60B8C13D5F /* RenameValidationError.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 8907ED14FC4642DE9D76A18E;
+		};
+		4F3CCD15AB1645A9A2528910 /* NamewellTests.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 4516B946B901471DA08776F2;
+		};
+		537C624303CE4D7A819101E3 /* HeaderView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 02E93312218440F291A5FE92;
+		};
+		56AA5873B54A43678CC50C34 /* RenameEngine.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = DD7E002192CB4CB7BD730469;
+		};
+		596A11162CD54BE08A0BB718 /* FileLoadingService.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 8CA81BC72A1A43448DCBB964;
+		};
+		735F63253F7142C1AD12DD07 /* ContentView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 86EAA68381A140A6A366610F;
+		};
+		7889AC88DE5340B98F19DE40 /* Localizable.strings in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = D5D4AE4CE6DC4B53A926D448;
+		};
+		936C1E0A0C394755A813BC55 /* CommandInputView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = EACE1F49759C4E4B9DE14BFC;
+		};
+		C8AD516C9CF643668132256D /* RenameViewModel.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 01E00A11B7CA44E2A78FB709;
+		};
+		CD24FE7E9C134DCD8705DB70 /* RenameItem.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 905187344808434893E560A1;
+		};
+		D4318202EE8B4629A7993C4A /* EmptyStateView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 4DD62ADD40DE434ABE18ECF6;
+		};
+		D592DC061066493B84C9ABD7 /* StatusBarView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 287A2D9B01364AD3814212C8;
+		};
+		D9D7B2DED70A40D588886E88 /* UndoManagerService.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = C5107CAD944D4620ABC684AD;
+		};
+		DD8B0259A3254B4E8FAE6C10 /* Localizable.strings in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = CCF172DA2A66473AA8E852F3;
+		};
+		E9FC4F13734B4B669127992A /* AppNotifications.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = C7B69F1EAA67470AA83AD594;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01E00A11B7CA44E2A78FB709 /* RenameViewModel.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "RenameViewModel.swift";
+			sourceTree = "<group>";
+		};
+		02E93312218440F291A5FE92 /* HeaderView.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "HeaderView.swift";
+			sourceTree = "<group>";
+		};
+		045E0089FF124BBD8679A62D /* RenameValidator.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "RenameValidator.swift";
+			sourceTree = "<group>";
+		};
+		0696BC86926044C79C792991 /* Localizable.strings */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			path = "en.lproj/Localizable.strings";
+			sourceTree = "<group>";
+		};
+		0C2A8E58A4CC480C9A0D9320 /* RenameOperation.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "RenameOperation.swift";
+			sourceTree = "<group>";
+		};
+		287A2D9B01364AD3814212C8 /* StatusBarView.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "StatusBarView.swift";
+			sourceTree = "<group>";
+		};
+		2F0C29EF3DC340AEAA7255A9 /* RenameRule.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "RenameRule.swift";
+			sourceTree = "<group>";
+		};
+		3A4EB9E868BF4E6E95607053 /* FolderSelectionService.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "FolderSelectionService.swift";
+			sourceTree = "<group>";
+		};
+		4516B946B901471DA08776F2 /* NamewellTests.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "NamewellTests.swift";
+			sourceTree = "<group>";
+		};
+		491DCDA3ED9045DFB88A3821 /* PreviewListView.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "PreviewListView.swift";
+			sourceTree = "<group>";
+		};
+		4DD62ADD40DE434ABE18ECF6 /* EmptyStateView.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "EmptyStateView.swift";
+			sourceTree = "<group>";
+		};
+		513455660E364361A3A2BEAA /* CommandParser.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "CommandParser.swift";
+			sourceTree = "<group>";
+		};
+		5170B64D9C794A8485D731EB /* CommandSuggestion.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "CommandSuggestion.swift";
+			sourceTree = "<group>";
+		};
+		5761CBD1C77948378E978A75 /* Localizable.strings */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			path = "pl.lproj/Localizable.strings";
+			sourceTree = "<group>";
+		};
+		86EAA68381A140A6A366610F /* ContentView.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ContentView.swift";
+			sourceTree = "<group>";
+		};
+		8907ED14FC4642DE9D76A18E /* RenameValidationError.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "RenameValidationError.swift";
+			sourceTree = "<group>";
+		};
+		8CA81BC72A1A43448DCBB964 /* FileLoadingService.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "FileLoadingService.swift";
+			sourceTree = "<group>";
+		};
+		8E42C66410E141CAB85D7FE7 /* Assets.xcassets */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = "folder.assetcatalog";
+			path = "Assets.xcassets";
+			sourceTree = "<group>";
+		};
+		905187344808434893E560A1 /* RenameItem.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "RenameItem.swift";
+			sourceTree = "<group>";
+		};
+		937D69012D584CF38CA23E72 /* Namewell.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			includeInIndex = 0;
+			path = "Namewell.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B3F7315EA2C403C8E66EA75 /* NamewellApp.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "NamewellApp.swift";
+			sourceTree = "<group>";
+		};
+		C5107CAD944D4620ABC684AD /* UndoManagerService.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "UndoManagerService.swift";
+			sourceTree = "<group>";
+		};
+		C60AE84DBA484A3DABF42BAD /* L10n.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "L10n.swift";
+			sourceTree = "<group>";
+		};
+		C7B69F1EAA67470AA83AD594 /* AppNotifications.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "AppNotifications.swift";
+			sourceTree = "<group>";
+		};
+		CCF172DA2A66473AA8E852F3 /* Localizable.strings */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			path = "fr.lproj/Localizable.strings";
+			sourceTree = "<group>";
+		};
+		D3E98E5A46F2431AAAB68F32 /* FileRenameService.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "FileRenameService.swift";
+			sourceTree = "<group>";
+		};
+		D5D4AE4CE6DC4B53A926D448 /* Localizable.strings */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.strings";
+			path = "de.lproj/Localizable.strings";
+			sourceTree = "<group>";
+		};
+		DD7E002192CB4CB7BD730469 /* RenameEngine.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "RenameEngine.swift";
+			sourceTree = "<group>";
+		};
+		EA66071D82D641B9A17201E5 /* NamewellTests.xctest */ = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.cfbundle";
+			includeInIndex = 0;
+			path = "NamewellTests.xctest";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EACE1F49759C4E4B9DE14BFC /* CommandInputView.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "CommandInputView.swift";
+			sourceTree = "<group>";
+		};
+		F8AF8C0C5F1E4B3CB96190EE /* FileDropHandler.swift */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = "sourcecode.swift";
+			path = "FileDropHandler.swift";
+			sourceTree = "<group>";
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361D5693714C48A3A94502FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541C271447A441D580EBA7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B53BF30BB44F4ABD03B3B5 /* Namewell */ = {
+			isa = PBXGroup;
+			children = (
+				8282E36C1B394AE7A792B300,
+				03CFFCEA67ED439A80D85A36,
+				689F359E02F342DA8EE5461C,
+				3D22B415852D4D4E8498E537,
+				97BAB397F4A644FDBF9F2451,
+				5E67FD4CB0C443378F1DCDA3,
+				26AFDFAFC05545B58B39C135,
+				8E42C66410E141CAB85D7FE7,
+			);
+			path = Namewell;
+			sourceTree = "<group>";
+		};
+		03CFFCEA67ED439A80D85A36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				905187344808434893E560A1,
+				5170B64D9C794A8485D731EB,
+				2F0C29EF3DC340AEAA7255A9,
+				0C2A8E58A4CC480C9A0D9320,
+				8907ED14FC4642DE9D76A18E,
+			);
+			sourceTree = "<group>";
+			path = Models;
+		};
+		1AC67BBB7A624BCF8D752F92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				937D69012D584CF38CA23E72,
+				EA66071D82D641B9A17201E5,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26AFDFAFC05545B58B39C135 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0696BC86926044C79C792991,
+				D5D4AE4CE6DC4B53A926D448,
+				CCF172DA2A66473AA8E852F3,
+				5761CBD1C77948378E978A75,
+			);
+			sourceTree = "<group>";
+			path = Resources;
+		};
+		3D22B415852D4D4E8498E537 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				01E00A11B7CA44E2A78FB709,
+			);
+			sourceTree = "<group>";
+			path = ViewModels;
+		};
+		5E67FD4CB0C443378F1DCDA3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F8AF8C0C5F1E4B3CB96190EE,
+				C60AE84DBA484A3DABF42BAD,
+			);
+			sourceTree = "<group>";
+			path = Utilities;
+		};
+		689F359E02F342DA8EE5461C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				513455660E364361A3A2BEAA,
+				DD7E002192CB4CB7BD730469,
+				045E0089FF124BBD8679A62D,
+				8CA81BC72A1A43448DCBB964,
+				3A4EB9E868BF4E6E95607053,
+				D3E98E5A46F2431AAAB68F32,
+				C5107CAD944D4620ABC684AD,
+			);
+			sourceTree = "<group>";
+			path = Services;
+		};
+		8282E36C1B394AE7A792B300 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9B3F7315EA2C403C8E66EA75,
+				C7B69F1EAA67470AA83AD594,
+			);
+			sourceTree = "<group>";
+			path = App;
+		};
+		97BAB397F4A644FDBF9F2451 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86EAA68381A140A6A366610F,
+				02E93312218440F291A5FE92,
+				EACE1F49759C4E4B9DE14BFC,
+				491DCDA3ED9045DFB88A3821,
+				287A2D9B01364AD3814212C8,
+				4DD62ADD40DE434ABE18ECF6,
+			);
+			sourceTree = "<group>";
+			path = Views;
+		};
+		C018E6E5AA4A45FFBEBF42E7 /* Namewell */ = {
+			isa = PBXGroup;
+			children = (
+				03B53BF30BB44F4ABD03B3B5,
+				F48889D458234FECA015EA15,
+				1AC67BBB7A624BCF8D752F92,
+			);
+			sourceTree = "<group>";
+		};
+		F48889D458234FECA015EA15 /* NamewellTests */ = {
+			isa = PBXGroup;
+			children = (
+				4516B946B901471DA08776F2,
+			);
+			sourceTree = "<group>";
+			path = NamewellTests;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68F056E8DE324918894C0FD0 /* Namewell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E2231399F143DD922CDD27;
+			buildPhases = (
+				1AFC33FBF5E141DC8CC92967,
+				1DDFE507C12F4756BF751A6A,
+				541C271447A441D580EBA7DD,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = Namewell;
+			productName = Namewell;
+			productReference = 937D69012D584CF38CA23E72;
+			productType = "com.apple.product-type.application";
+		};
+		E2AD7805466A486EA09A69CC /* NamewellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95B8B01D1E44B3894F06134;
+			buildPhases = (
+				1DF8DC3C2FBA4EA68DD39173,
+				361D5693714C48A3A94502FF,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = NamewellTests;
+			productName = NamewellTests;
+			productReference = EA66071D82D641B9A17201E5;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		614854BF64CA4EF8B6DA172D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {68F056E8DE324918894C0FD0 = {CreatedOnToolsVersion = "15.0"; }; E2AD7805466A486EA09A69CC = {CreatedOnToolsVersion = "15.0"; TestTargetID = 68F056E8DE324918894C0FD0; }; }; };
+			buildConfigurationList = 9E25214D9D8B45B19EBB7238;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				fr,
+				pl,
+				Base,
+			);
+			mainGroup = C018E6E5AA4A45FFBEBF42E7;
+			productRefGroup = 1AC67BBB7A624BCF8D752F92;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F056E8DE324918894C0FD0,
+				E2AD7805466A486EA09A69CC,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DDFE507C12F4756BF751A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F9D9A281454666B2443D1E,
+				7889AC88DE5340B98F19DE40,
+				DD8B0259A3254B4E8FAE6C10,
+				1759FBF6128849EA86443325,
+				42F18B5A3F6540C68D80067C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AFC33FBF5E141DC8CC92967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0730A1779D43B38574985C,
+				E9FC4F13734B4B669127992A,
+				CD24FE7E9C134DCD8705DB70,
+				2F01BF59050D49B1ADEFF33D,
+				4C4051F3AB374103AD0F1A55,
+				2FD6BA8E2B2A45A4A8BA07B0,
+				4D3C0C13940C4A60B8C13D5F,
+				3ECA48476A82468D86BE66B3,
+				56AA5873B54A43678CC50C34,
+				34E0B332BE73401EA1E177ED,
+				596A11162CD54BE08A0BB718,
+				395E22C45C1B4B5BA1624909,
+				2AEE9B7B34094DBD8356B985,
+				D9D7B2DED70A40D588886E88,
+				C8AD516C9CF643668132256D,
+				735F63253F7142C1AD12DD07,
+				537C624303CE4D7A819101E3,
+				936C1E0A0C394755A813BC55,
+				0B4E78C8E9384678B03FF13B,
+				D592DC061066493B84C9ABD7,
+				D4318202EE8B4629A7993C4A,
+				2BE4796E9A40470B83C0B9CA,
+				4BCDFA2B4ED4440FA4AD876A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF8DC3C2FBA4EA68DD39173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3CCD15AB1645A9A2528910,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20726459A1804EC29BD2CDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; MACOSX_DEPLOYMENT_TARGET = "14.0"; MARKETING_VERSION = "1.0"; PRODUCT_BUNDLE_IDENTIFIER = "com.namewell.app.tests"; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = "5.9"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Namewell.app/Contents/MacOS/Namewell"; };
+			name = Debug;
+		};
+		5A62E95B221C4080822F770B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; MACOSX_DEPLOYMENT_TARGET = "14.0"; MARKETING_VERSION = "1.0"; PRODUCT_BUNDLE_IDENTIFIER = "com.namewell.app.tests"; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = "5.9"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Namewell.app/Contents/MacOS/Namewell"; };
+			name = Release;
+		};
+		649332F1AD054A8AAA313A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_ENABLE_OBJC_WEAK = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR; GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE; GCC_WARN_UNUSED_FUNCTION = YES; GCC_WARN_UNUSED_VARIABLE = YES; MACOSX_DEPLOYMENT_TARGET = "14.0"; MTL_ENABLE_DEBUG_INFO = NO; MTL_FAST_MATH = YES; ONLY_ACTIVE_ARCH = NO; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = ""; ENABLE_NS_ASSERTIONS = NO; SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule"; VALIDATE_PRODUCT = YES; };
+			name = Release;
+		};
+		71D05599EC6C47F6BF47DDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CODE_SIGN_ENTITLEMENTS = "Namewell/Namewell.entitlements"; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; DEAD_CODE_STRIPPING = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_OPTIMIZATION_LEVEL = s; INFOPLIST_FILE = "Namewell/Info.plist"; INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Namewell"; LD_RUNPATH_SEARCH_PATHS = (
+				"$(inherited)",
+				"@executable_path/../Frameworks",
+			); MACOSX_DEPLOYMENT_TARGET = "14.0"; MARKETING_VERSION = "1.0"; MTL_ENABLE_DEBUG_INFO = NO; MTL_FAST_MATH = YES; ONLY_ACTIVE_ARCH = NO; PRODUCT_BUNDLE_IDENTIFIER = "com.namewell.app"; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = ""; SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule"; SWIFT_VERSION = "5.9"; };
+			name = Release;
+		};
+		8C87B72AC7DD4B37A1590FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CODE_SIGN_ENTITLEMENTS = "Namewell/Namewell.entitlements"; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; DEAD_CODE_STRIPPING = YES; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_DYNAMIC_NO_PIC = NO; GCC_NO_COMMON_BLOCKS = YES; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = (
+				"DEBUG=1",
+				"$(inherited)",
+			); INFOPLIST_FILE = "Namewell/Info.plist"; INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Namewell"; LD_RUNPATH_SEARCH_PATHS = (
+				"$(inherited)",
+				"@executable_path/../Frameworks",
+			); MACOSX_DEPLOYMENT_TARGET = "14.0"; MARKETING_VERSION = "1.0"; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; MTL_FAST_MATH = YES; ONLY_ACTIVE_ARCH = YES; PRODUCT_BUNDLE_IDENTIFIER = "com.namewell.app"; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = "5.9"; };
+			name = Debug;
+		};
+		DC5D7EF19673479183D334A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_ENABLE_OBJC_WEAK = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR; GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE; GCC_WARN_UNUSED_FUNCTION = YES; GCC_WARN_UNUSED_VARIABLE = YES; MACOSX_DEPLOYMENT_TARGET = "14.0"; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; MTL_FAST_MATH = YES; ONLY_ACTIVE_ARCH = YES; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; };
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E25214D9D8B45B19EBB7238 /* Build configuration list for PBXProject "Namewell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5D7EF19673479183D334A5,
+				649332F1AD054A8AAA313A8D,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95B8B01D1E44B3894F06134 /* Build configuration list for PBXNativeTarget "NamewellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20726459A1804EC29BD2CDCC,
+				5A62E95B221C4080822F770B,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E2231399F143DD922CDD27 /* Build configuration list for PBXNativeTarget "Namewell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C87B72AC7DD4B37A1590FBF,
+				71D05599EC6C47F6BF47DDB2,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 614854BF64CA4EF8B6DA172D /* Project object */;
+}
